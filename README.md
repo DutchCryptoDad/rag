@@ -17,6 +17,11 @@ This project implements a Retrieval Augmented Generation (RAG) system using Olla
    ollama pull mxbai-embed-large
    ```
 
+4. Create necessary directories
+
+- data
+- db
+
 ## Usage
 
 ### Document Ingestion
@@ -63,9 +68,7 @@ There are three different implementations for querying the documents:
 
 All three implementations provide visual feedback while Ollama is processing your query:
 
-- **chat.py**: Uses a tqdm progress bar
-- **chat_simple.py**: Uses a simple spinning animation
-- **chat_streaming.py**: Shows real-time token generation with a token counter
+- **chat.py**: Uses a simple spinning animation
 
 Choose the implementation that best suits your needs and preferences. 
 

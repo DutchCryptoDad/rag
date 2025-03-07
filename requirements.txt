@@ -1,0 +1,9 @@
+langchain_ollama
+langchain_community
+langchain_text_splitters
+langchain_chroma
+langchain_core
+langchain
+python-dotenv
+pypdf
+tqdm
